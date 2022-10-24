@@ -1,0 +1,89 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: rgb(234, 211, 211);
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+table,tr,th, td, caption {
+    border: 1px solid rgb(219, 29, 29);
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+.welcome{
+    color:rgb(252,73,73)
+}
+.paragraph{
+    color: rgb(129, 172, 227);
+}
+#serviceimage{
+    height: 300px;
+    width: 50%;
+    background-image: url(https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background:radial-gradient(circle,red,blue,green)
+
+}
+body{
+    text-align: justify;
+    font-family: sans-serif;
+}
+#taco{
+    height: 400px;
+    width: 60%;
+    border: 10px solid cornflowerblue;
+    margin: 100px 15px;
+
+}
+#samosa{
+    height: 400px;
+    width: 60%;
+    border: 10px solid cornflowerblue;
+    margin: 100px 15px;
+
+}
+.container{
+    background-color: rgb(58, 65, 65);
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-item{
+    background: rgb(167, 243, 25);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    width: 70px;
+    margin: 10px;
+}
+.grid-container{
+    background: rgb(79, 105, 90);
+    margin: 10px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    align-content:start;
+}
+.grid-item{
+    color:rgb(48, 100, 204);
+    text-align: center;
+    line-height: 50px;
+    width:75px;
+    margin:10px;
+}
+    
+
